@@ -3,9 +3,6 @@
     src: url('./assets/Norse-Bold.otf');
   }
 
-div {
-    background-color: black;
-}
 
 .background {
     background-image: url('./assets/dylan-shaw-lfnsZ1Ylu3Y-unsplash.jpg');
@@ -13,7 +10,7 @@ div {
     background-size: cover;
     background-attachment: fixed;
     height: 1300px;
-    width: 500px;
+    width: 800px;
 }
 
 .page-title {
@@ -26,7 +23,71 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0,0,0, 0.5);
+    background-color: rgb(0,0,0, 0.6);
     position: relative;
     top: 300px;
+}
+
+.image-credit {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 800px;
+    color:#DADEDF;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 20px 0;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.top-space {
+    margin-top: 200px;
+}
+
+.submit-wrapper {
+    border-top-style: inset;
+}
+
+.submit-button {
+    background-color: #596D48;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 30px 0 0 50px;
+    color: #DADEDF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.log-in {
+    margin: 30px 0 0 50px;
+}
+
+.log-in-text {
+    color:#596D48;
+    font-weight: bold;
 }

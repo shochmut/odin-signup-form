@@ -7,11 +7,52 @@
     <title>Odin Signup Form</title>
 </head>
 <body>
-    <div>
+    <div class="page">
         <div class="background">
             <div class="logo-wrapper">
                 <img src="./assets/odin-lined.png" alt="Logo" height="150" width="150">
                 <h1 class="page-title">Odin Signup Form</h1>
+            </div>
+            <p class="image-credit">Photo by Dylan Shaw on Unsplash</p>
+        </div>
+        <div class="form-wrapper">
+            <h1 class="form-title top-space">Sign Up Here!</h1>
+            <h1 class="form-title">Don't Miss Out On This Amazing Opportunity</h1>
+            <form action="" method="get" class="signup-form">
+                <div class="form-row">
+                    <div class="input-wrapper">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-wrapper">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-wrapper">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="password-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="password-confirm" id="password-confirm" required/>
+                    </div>
+                </div>
+            </form>
+            <div class="submit-wrapper">
+                <button class="submit-button" type="submit">Create Account</button>
+                <p class="log-in">Already have an account? <span class="log-in-text">Log in</span></p>
             </div>
         </div>
     </div>
